@@ -22,18 +22,15 @@
 .board {
   width: 150px;
   height: 150px;
-  margin: 20px;
 }
 .board:after {
   content: "";
   display: table;
   clear: both;
 }
-.d-flex {
+.flexbox {
   display: flex;
 }
-.history {
-  max-width: 200px;
-  flex: 1;
-  padding: 10px;
+.flex-item {
+  padding: 20px;
 }

@@ -1,10 +1,7 @@
-function Square(props) {
-  const { value, onClick, index, isGameOver } = props;
-
-  function handleClick() {
-    if (value || isGameOver) return;
+function Square({ value, onClick, index }) {
+  const handleClick = () => {
     onClick(index);
-  }
+  };
 
   return (
     <div className="square" onClick={handleClick}>
